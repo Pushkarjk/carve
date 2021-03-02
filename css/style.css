@@ -146,9 +146,9 @@ footer{position: relative;}
 
 /* PRELOADER */
 .preloader{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 99; background:#2d2d2f; }
-.preloader{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease;  }
-.preloader *{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease;} 
-.preloader img{ width: 80px; height: 80px; position: absolute; left: 50%; top:50%; margin-left: -40px; margin-top: -40px; z-index: 4; border-radius: 50%; padding: 10px; background: #fff;}
+.preloader{-webkit-transition: all 2.0s ease; -moz-transition: all 2.0s ease; -ms-transform:all 2.0s ease; transition: all 2.0s ease;  }
+.preloader *{-webkit-transition: all 2.0s ease; -moz-transition: all 2.0s ease; -ms-transform:all 2.0s ease; transition: all 2.0s ease;} 
+.preloader img{ width: 280px; height: 280px; position: absolute; left: 50%; top:50%; margin-left: -130px; margin-top: -90px; z-index: 4; border-radius: 50%; padding: 10px; background: #2d2d2f;}
 
 
 
@@ -470,7 +470,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 /* SIDE IMAGE CONTENT */
 .side-image-content{width: 100%; float: left; display: flex; flex-direction: row; margin: 100px 0;}
 .side-image-content .inner {width: 50%; display: flex; justify-content: center; flex-direction: column; position: relative;}
-.side-image-content .inner.bg1{ background: #f50c1a;}
+.side-image-content .inner.bg1{ background: #000000;}
 .side-image-content .inner .main-image{ width: 100%; float: left; margin: 0; margin-top: -100px; margin-bottom: 100px;}
 .side-image-content .inner .sub-image{ width: 250px; position: absolute; right: -50px; bottom: -100px; z-index: 2;}
 .side-image-content .inner img{ width: 100%; }
@@ -632,7 +632,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 /* FOOTER */
 .footer-spacing{ width: 100%; float: left;}
 .footer{ width: calc(100% - 120px); position: fixed; left: 0; bottom: 0; margin: 0 60px; padding-top: 50px; background:url(../images/anchor-line-bg.png) center no-repeat #131314; background-size: auto 150%; z-index: 1; text-align: center; color: #fff;}
-.footer img{width: 32px; margin-bottom: 20px; display: inline-block;}
+.footer img{width: 92px; margin-bottom: 20px; display: inline-block;}
 .footer .social-media{ width: 100%; float: left; display: none; text-align: center; margin-bottom: 20px; padding: 0;}
 .footer .social-media li{display: inline-block; margin: 0 10px; list-style: none;}
 .footer .social-media li a{ float: left; font-size: 12px; font-weight: 600; color: #fff;}
