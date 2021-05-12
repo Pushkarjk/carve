@@ -95,7 +95,7 @@ footer{position: relative;}
 
 
 /* CONTENT */
-.content{ width: calc(100% - 120px); float: left; background:303030; margin: 0 60px;}
+.content{ width: calc(100% - 120px); float: left; background:#fff; margin: 0 60px;}
 
 
 
@@ -636,7 +636,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 .footer .social-media{ width: 100%; float: left; display: none; text-align: center; margin-bottom: 20px; padding: 0;}
 .footer .social-media li{display: inline-block; margin: 0 10px; list-style: none;}
 .footer .social-media li a{ float: left; font-size: 12px; font-weight: 600; color: #fff;}
-.footer .social-media li a:hover{text-decoration: none; color: #f50c1a;}}
+.footer .social-media li a:hover{text-decoration: none; color: #f50c1a;}
 .footer h4{font-weight: 300; letter-spacing: -1px; font-size: 2em;}
 .footer h2{ font-family: "Fjalla One"; text-transform: uppercase; font-size: 4em; margin-bottom: 30px; padding: 0 10%;}
 .footer .btn-contact{height: 60px; line-height: 58px; display: inline-block; border: 1px solid rgba(255,255,255,0.2); padding: 0 40px; font-size: 11px; font-weight: 700; color: #fff; margin-bottom: 30px; overflow: hidden;}
